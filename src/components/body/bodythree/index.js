@@ -18,8 +18,8 @@ const BodyThree =()=>{
                 <button>View more</button>
             </div>
             <div className="bodythreeimagecontainertwo">
-            <img className="image" src={img2} />
-            <img className="imageone" src={img3}/>
+            <img className="imagetwo" src={img2} />
+            <img className="imagethree" src={img3}/>
             </div>
         </div>
     )

@@ -1,0 +1,58 @@
+.bodythreecontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+}
+.bodythreeimagecontainerone{
+    flex: 1;
+}
+.bodythreeimagecontainertwo{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.bodythreetext{
+    flex: 1;
+    text-align: center;
+    margin: 7em;
+}
+.bodythreetext h1{
+    font-size: 1.9em;
+}
+.imageone{
+    width: 45%;
+    height: 60%;
+    object-fit: cover;
+    margin: -7em 6em;  
+    display: flex;
+    flex-direction: column;
+    border-radius: 4em;
+}
+.image{
+    width: 45%;
+    height: 55%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.imagetwo{
+    width: 45%;
+    height: 60%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+   
+    object-fit: cover;
+}
+
+.imagethree{
+    width: 45%;
+    height: 55%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    margin: -7em 6em;
+    border-radius: 4em;
+}
+
