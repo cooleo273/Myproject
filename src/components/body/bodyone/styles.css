@@ -1,0 +1,95 @@
+.bodyonecontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+}
+.notice{
+    flex: 1;
+    margin: 5em 13em;
+}
+.trust{
+    flex: 1;
+}
+.tracking{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.real{
+    flex: 1;
+    border-style: solid;
+    padding: 1em;
+    border-radius:0.5em;
+    border-color: gainsboro;
+    box-shadow: 0.1em 0.3em lightgray;
+    width: 17em;
+}
+
+.item{
+    flex: 1;
+    margin-left: 7em;
+    border-style: solid;
+    padding: 1em;
+    border-radius:0.5em;
+    border-color: gainsboro;
+    box-shadow: 0.1em 0.3em lightgray;
+
+}
+.scales{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    
+}
+
+.weight{
+    flex: 1;
+    border-style: solid;
+    padding: 1em;
+    border-radius:0.5em;
+    border-color: gainsboro;
+    box-shadow: 0.1em 0.3em lightgray;
+}
+.service{
+    flex: 1;
+    border-style: solid;
+    padding: 1em;
+    margin-left: 7em;
+    border-radius:0.5em;
+    border-color: gainsboro;
+    box-shadow: 0.1em 0.3em lightgray;
+}
+.bodyonecontainer p{
+    font-size: 0.9em;
+    color: rgb(169 169 169);
+}
+.trust{
+    margin-top: 3em;
+    margin-right: 7em;
+}
+.trust h1{
+    font-size: 2.5em;
+    
+    
+}
+.trust h1 span{
+    
+    color: orange;
+    
+    
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    
+}
+.numberone{
+    margin-right: 3em;
+}
+.numberone h1{
+    margin-bottom: 0em;
+}
+.numberone h1 span{
+    color: orange;
+}

@@ -1,0 +1,14 @@
+.textcontainer{
+    flex: 1;
+    margin: 0px 16em;
+    color: white;
+}
+.textcontainer h1{
+    font-size: 4em;
+    
+}
+.textcontainer p {
+    margin-right: 6em;
+    font-size: 0.98em;
+    color: rgb(169 169 169);
+}
