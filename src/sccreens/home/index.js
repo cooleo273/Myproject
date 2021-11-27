@@ -1,5 +1,6 @@
 import  react  from "react";
 import BodyOne from "../../components/body/bodyone";
+import BodyTwo from "../../components/body/bodytwo";
 import Header from "../../components/header";
 
 const Home =()=> {
@@ -7,6 +8,7 @@ const Home =()=> {
         <div>
             <Header/>
             <BodyOne/>
+            <BodyTwo/>
         </div>
     )
 }
