@@ -1,4 +1,5 @@
 import react from "react";
+import ViewMore from "../../buttons/view more";
 import "./styles.css";
 const BodyTwo = () => {
     return (
@@ -8,7 +9,7 @@ const BodyTwo = () => {
                 <p>'
                     We offer everything you need for the delivery of your goods, the product sent can be viewed live streaming, because we use cameras on our helmets
                 </p>
-                <button>View more</button>
+                <ViewMore/>
 
             </div>
             <div className="bodytwosliders">
@@ -16,7 +17,7 @@ const BodyTwo = () => {
                 <p>
                     We offer everything you need for the delivery of your goods, the product sent can be viewed live streaming, because we use cameras on our helmets
                 </p>
-                <button>View more</button>
+                <ViewMore/>
             </div>
         </div>
     )

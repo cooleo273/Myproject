@@ -1,4 +1,5 @@
 import react from "react";
+import OrderNow from "../buttons/ordernow";
 import  "./styles.css";
 const TextContainer=()=>{
     return(
@@ -8,8 +9,10 @@ const TextContainer=()=>{
                         Prudence and Security carried on our couriers
                         will truly be maintained until the destinations.
                     </p>
-                    <button>Order Now</button>
-                    <button>Enterprise</button>
+                   <div className="buttons">
+                       <OrderNow/>
+                <a href="Home">Enterprise</a>
+                    </div> 
                 </div>
     )
 }

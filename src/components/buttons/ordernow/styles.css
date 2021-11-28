@@ -1,0 +1,12 @@
+.ordernow{
+    padding: 1em;
+    background-color: orange;
+    border-radius: 0.5em;
+    width:10em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    border-color: transparent;
+}

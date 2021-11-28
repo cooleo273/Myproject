@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles.css";
 
 const OrderNow =()=>{
     return(
-        <button>Order Now</button>
+        <button className="ordernow">Order Now</button>
     )
 }
 

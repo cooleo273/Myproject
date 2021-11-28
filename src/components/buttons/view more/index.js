@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles.css" 
 
 const ViewMore =()=>{
     return(
-        <button>View more</button>
+        <button className="viewmore">View more</button>
     )
 }
 

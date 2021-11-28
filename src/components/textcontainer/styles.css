@@ -12,3 +12,12 @@
     font-size: 0.98em;
     color: rgb(169 169 169);
 }
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+}
