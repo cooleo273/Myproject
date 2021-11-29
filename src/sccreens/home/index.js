@@ -1,4 +1,5 @@
 import  react  from "react";
+import BodyFive from "../../components/body/bodyfive";
 import BodyFour from "../../components/body/bodyfour";
 import BodyOne from "../../components/body/bodyone";
 import BodyThree from "../../components/body/bodythree";
@@ -13,6 +14,7 @@ const Home =()=> {
             <BodyTwo/>
             <BodyThree/>
             <BodyFour/>
+            <BodyFive/>
         </div>
     )
 }
