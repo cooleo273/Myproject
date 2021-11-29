@@ -4,7 +4,7 @@ import "./styles.css";
 const BodyFour = () => {
     return (
         <div className="bodyfourcontainer">
-            <div>
+            <div className="bodyfourcontainertext">
                 <h1>People say about Beeanter</h1>
                 <p>all from clients, we display here so you can see</p>
             </div>
@@ -16,21 +16,25 @@ const BodyFour = () => {
                     <div className="secondperson">
                         <p>The application is very charming, the minimalist design makes users not confused when using it</p>
                     </div>
-                    <div className="thirdperson">
-                        <p>The application is very charming, the minimalist design makes users not confused when using it</p>
-                    </div>
+                    
                 </div>
                 <div className="feedbackcontainertwo">
+                <div className="thirdperson">
+                        <p>The application is very charming, the minimalist design makes users not confused when using it</p>
+                    </div>
                     <div className="fourthperson">
                         <p>The application is very charming, the minimalist design makes users not confused when using it</p>
                     </div>
-                    <div className="fifthperson">
-                        <p>The application is very charming, the minimalist design makes users not confused when using it</p>
-                    </div>
-                    <div className="sixthhperson">
-                        <p>The application is very charming, the minimalist design makes users not confused when using it</p>
-                    </div>
+                   
 
+                </div>
+                <div className="feedbackcontainerthree">
+                <div className="fifthperson">
+                        <p>The application is very charming, the minimalist design makes users not confused when using it</p>
+                    </div>
+                    <div className="sixthperson">
+                        <p>The application is very charming, the minimalist design makes users not confused when using it</p>
+                    </div>
                 </div>
             </div>
         </div>

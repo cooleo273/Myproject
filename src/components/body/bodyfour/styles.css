@@ -1,0 +1,60 @@
+.bodyfourcontainertext{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.bodyfourcontainertext h1{
+    margin-bottom: 0px;
+}
+.bodyfourcontainertext p{
+    margin-bottom: 4em;
+}
+.feedbackcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.feedbackcontainerone{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.feedbackcontainertwo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.feedbackcontainerthree{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.firstperson{
+    display: flex;
+    margin: 0em 6em;
+}
+.secondperson{
+    display: flex;
+    margin: 0em 6em;
+}
+.thirdperson{
+    display: flex;
+    margin: 0em 6em;
+}
+.fourthperson{
+    display: flex;
+    margin: 0em 6em;
+}
+.fifthperson{
+    display: flex;
+    margin: 0em 6em;
+}
+
+.sixthperson{
+    display: flex;
+    margin: 0em 6em;
+}
+
+
+
+
