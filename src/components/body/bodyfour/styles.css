@@ -1,3 +1,8 @@
+.bodyfourcontainer{
+    height: 60em;
+    background-color: #f7f2f2;
+    margin-top: 20em;
+}
 .bodyfourcontainertext{
     display: flex;
     flex-direction: column; 
@@ -5,6 +10,7 @@
 }
 .bodyfourcontainertext h1{
     margin-bottom: 0px;
+    margin-top: 4em;
 }
 .bodyfourcontainertext p{
     margin-bottom: 4em;
@@ -12,49 +18,309 @@
 .feedbackcontainer{
     display: flex;
     flex-direction: row;
+    margin: 0em 7em;
 }
 .feedbackcontainerone{
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-top: 3em;
 }
 
 .feedbackcontainertwo{
     display: flex;
     flex: 1;
     flex-direction: column;
+    margin-top: 3em;
 }
 .feedbackcontainerthree{
     display: flex;
     flex: 1;
     flex-direction: column;
+    margin-top: 3em;
 }
 .firstperson{
     display: flex;
-    margin: 0em 6em;
+    flex-direction: column;
+    margin: 0em 4em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 2em;
+}
+.firstperson p{
+    font-size: 0.77em;
+    color: lightgrey;
+}
+.firstperson .firstpersoninfo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.firstperson .firstpersoninfo img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
+.firstpersonName{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4em;
+    
+
+}
+.firstpersonName h3{
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+
+}
+.firstpersonName p{
+    margin-top: 0em;
+    color: black;
+
+    
+}
+.firstpersonName p span{
+    color: blue;
+
+    
 }
 .secondperson{
     display: flex;
-    margin: 0em 6em;
+    margin: 0em 4em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 2em;
+    margin-top: 4em;
+    flex-direction: column;
+}
+.secondperson p{
+    font-size: 0.77em;
+    color: lightgrey;
+}
+.secondperson .secondpersoninfo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.secondperson .secondpersoninfo img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
+.secondpersonName{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4em;
+    
+
+}
+.secondpersonName h3{
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+
+}
+.secondpersonName p{
+    margin-top: 0em;
+    color: black;
+
+    
+}
+.secondpersonName p span{
+    color: blue;
+
+    
 }
 .thirdperson{
     display: flex;
-    margin: 0em 6em;
+    margin: 0em 4em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 2em;
+    flex-direction: column;
+}
+.thirdperson p{
+    font-size: 0.77em;
+    color: lightgrey;
+}
+.thirdperson .thirdpersoninfo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.thirdperson .thirdpersoninfo img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
+.thirdpersonName{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4em;
+    
+
+}
+.thirdpersonName h3{
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+
+}
+.thirdpersonName p{
+    margin-top: 0em;
+    color: black;
+
+    
+}
+
+.thirdpersonName p span{
+    color: blue;
+
+    
 }
 .fourthperson{
     display: flex;
-    margin: 0em 6em;
+    margin: 0em 4em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 2em;
+    margin-top: 4em;
+    flex-direction: column;
+}
+.fourthperson p{
+    font-size: 0.77em;
+    color: lightgrey;
+}
+.fourthperson .fourthpersoninfo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fourthperson .fourthpersoninfo img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
+.fourthpersonName{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4em;
+    
+
+}
+.fourthpersonName h3{
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+
+}
+.fourthpersonName p{
+    margin-top: 0em;
+    color: black;
+
+    
+}
+.fourthpersonName p span{
+    color: blue;
+
+    
 }
 .fifthperson{
     display: flex;
-    margin: 0em 6em;
+    margin: 0em 4em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 2em;
+    flex-direction: column;
+}
+.fifthperson p{
+    font-size: 0.77em;
+    color: lightgrey;
+}
+.fifthperson .fifthpersoninfo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fifthperson .fifthpersoninfo img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-top: 0.5em;
 }
 
+.fifthpersonName{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4em;
+    
+
+}
+.fifthpersonName h3{
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+
+}
+.fifthpersonName p{
+    margin-top: 0em;
+    color: black;
+    
+    
+}
+.fifthpersonName p span{
+    color: blue;
+
+    
+}
 .sixthperson{
     display: flex;
-    margin: 0em 6em;
+    margin: 0em 4em;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 2em;
+    margin-top: 4em;
+    flex-direction: column;
+}
+.sixthperson p{
+    font-size: 0.77em;
+    color: lightgrey;
+}
+.sixthperson .sixthpersoninfo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.sixthperson .sixthpersoninfo img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-top: 0.5em;
 }
 
+.sixthpersonName{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.4em;
+    
 
+}
+.sixthpersonName h3{
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+
+}
+.sixthpersonName p{
+    margin-top: 0em;
+    color: black;
+
+    
+} 
+.sixthpersonName p span{
+    color: blue;
+
+    
+}
 
 
