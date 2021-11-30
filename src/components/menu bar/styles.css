@@ -22,3 +22,28 @@
     border-color: lightgray;
     padding: 0.7em 2em;
 }
+.Home a{
+    color: lightgrey;
+    text-decoration: none;
+
+}
+.About a{
+    color: lightgrey;
+    text-decoration: none;
+
+}
+.Partnership a{
+    color: lightgrey;
+    text-decoration: none;
+
+}
+.Product a{
+    color: lightgrey;
+    text-decoration: none;
+
+}
+.contactus a{
+    color: lightgrey;
+    text-decoration: none;
+
+}
