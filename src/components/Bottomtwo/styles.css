@@ -1,0 +1,21 @@
+.Bottom-two-container{
+    display: flex;
+    flex-direction: row;
+    background-color: darkorange;
+    color: white;
+}
+.Bottom-two-container a{
+    display: flex;
+    flex: 1;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 8em;
+    font-size: 0.9em;
+    color: white;
+    text-decoration: none;
+}
+.Bottom-two-container p{
+    margin-left: 14em;
+    font-size: 0.9em;
+}

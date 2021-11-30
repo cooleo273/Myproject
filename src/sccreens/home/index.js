@@ -5,6 +5,7 @@ import BodyOne from "../../components/body/bodyone";
 import BodyThree from "../../components/body/bodythree";
 import BodyTwo from "../../components/body/bodytwo";
 import Bottom from "../../components/Bottom";
+import Bottomtwo from "../../components/Bottomtwo";
 import Header from "../../components/header";
 
 const Home =()=> {
@@ -17,6 +18,7 @@ const Home =()=> {
             <BodyFour/>
             <BodyFive/>
             <Bottom/>
+            <Bottomtwo/>
         </div>
     )
 }

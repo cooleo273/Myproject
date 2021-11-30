@@ -1,0 +1,58 @@
+.bottomcontainer{
+    display: flex;
+    background-color: #f6f6f6;
+}
+.about-beeanter{
+    flex: 1;
+    margin: 8em 13em ;
+}
+.about-beeanter p{
+    font-size: 0.9em;
+    margin-right: 4em;
+    color: darkgrey;
+}
+.Bottom-table-one{
+    flex: 1;
+    margin-top: 8em;
+    
+}
+.bottomcontainer ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0em;
+}
+.Bottom-table-one li{
+    list-style-type: none;
+    margin-bottom: 0.4em;
+}
+.Bottom-table-one li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.Bottom-table-two{
+    flex: 1;
+    margin-top: 8em;
+}
+.Bottom-table-two li{
+    list-style-type: none;
+    margin-bottom: 0.4em;
+}
+.Bottom-table-two li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.Bottom-table-three{
+    flex: 1;
+    margin-top: 8em;
+}
+.Bottom-table-three li{
+    list-style-type: none;
+    margin-bottom: 0.4em;
+}
+.Bottom-table-three li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.Bottom-table-three span{
+    color: orange;
+}
