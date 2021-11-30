@@ -11,7 +11,7 @@ const TextContainer=()=>{
                     </p>
                    <div className="buttons">
                        <OrderNow/>
-                <a href="Home">Enterprise</a>
+                        <a href="/">Enterprise</a>
                     </div> 
                 </div>
     )
