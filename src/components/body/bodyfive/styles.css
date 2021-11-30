@@ -19,9 +19,12 @@ a.btn-google{color:#fff}
 .flex {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left:-10px;
    }
-   
+.flex social-btns{
+    margin-left:-10px;
+}
 .app-btn i {
       width: 20%;
       text-align: center;
@@ -44,6 +47,7 @@ a.btn-google{color:#fff}
    .app .blu{
     background-color: #101010;
     transition: background-color 0.25s linear;
+    height: 4.5em;
    }
    .app .blu:hover{
     background-color: #454545;
@@ -56,3 +60,28 @@ a.btn-google{color:#fff}
    .fa-apple::before{
        content: "\F179";
    }
+.bodyfivecontainer{
+    display: flex;
+    flex-direction: row;
+}
+.bodyfivetextcontainer{
+    flex: 1;
+    margin: 5em 14em;
+}
+.bodyfivetextcontainer h1{
+    font-size: 3.5em;
+}
+.bodyfivetextcontainer .text{
+    font-size: 0.9em;
+    display: flex;
+    margin: 0px 12em 0em 0em;   
+}
+.image{
+    flex: 1;
+}
+.image img{
+    width:40%;
+    margin-top: 8em;
+    object-fit: cover;
+    margin-left: -2em;
+}

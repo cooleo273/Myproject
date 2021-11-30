@@ -1,7 +1,7 @@
 .bodythreecontainer{
     display: flex;
     flex-direction: row;
-    margin-top: 4em;
+    margin-top: 10em;
 }
 .bodythreeimagecontainerone{
     flex: 1;
