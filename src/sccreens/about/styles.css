@@ -1,0 +1,13 @@
+.About-text-container{
+    margin-top: 6em;
+   display: flex;
+   
+}
+
+.Aboutcontainer{
+    display: flex;
+    flex-direction: column;
+    height: 53em;
+    background-image: url(kellen-riggin-edspQmByrTk-unsplash.jpg);
+    background-position: -10em -82em ;
+}

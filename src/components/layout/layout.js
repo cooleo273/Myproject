@@ -3,11 +3,14 @@ import  Header  from "../header";
 
 const layout =()=>{
     return(
-        <formcontainer>
-            <Header/>
-            <body/>
-            <bottom/>
-        </formcontainer>
+        <div>
+            <Menu/>
+            <div >
+                <TextContainer/>
+                <Banner/>
+            </div>
+        </div>
+        
     )
 }
 export default layout
